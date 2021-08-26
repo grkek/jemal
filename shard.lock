@@ -1,0 +1,74 @@
+version: 2.0
+shards:
+  ameba:
+    git: https://github.com/crystal-ameba/ameba.git
+    version: 0.13.4
+
+  athena-config:
+    git: https://github.com/athena-framework/config.git
+    version: 0.3.0
+
+  athena-serializer:
+    git: https://github.com/athena-framework/serializer.git
+    version: 0.2.8
+
+  authorization:
+    git: https://github.com/grip-framework/authorization.git
+    version: 0.1.0+git.commit.12dadec8566b3efa41ae80712338ef6451565291
+
+  backtracer:
+    git: https://github.com/sija/backtracer.cr.git
+    version: 1.2.1
+
+  bindata:
+    git: https://github.com/spider-gazelle/bindata.git
+    version: 1.9.1
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.10.1
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.2.0
+
+  granite:
+    git: https://github.com/amberframework/granite.git
+    version: 0.23.0
+
+  grip:
+    git: https://github.com/grip-framework/grip.git
+    version: 1.0.3
+
+  jwt:
+    git: https://github.com/crystal-community/jwt.git
+    version: 1.5.1
+
+  micrate:
+    git: https://github.com/juanedi/micrate.git
+    version: 0.11.0
+
+  mysql:
+    git: https://github.com/crystal-lang/crystal-mysql.git
+    version: 0.13.0
+
+  openssl_ext:
+    git: https://github.com/spider-gazelle/openssl_ext.git
+    version: 2.1.5
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.23.2
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+
+  sqlite3:
+    git: https://github.com/crystal-lang/crystal-sqlite3.git
+    version: 0.18.0
+
+  swagger:
+    git: https://github.com/icyleaf/swagger.git
+    version: 0.3.0
+

@@ -1,0 +1,39 @@
+name: jemal
+version: 0.1.0
+
+authors:
+  - Giorgi Kavrelishvili <giorgi.kavrelishvili@pm.me>
+
+targets:
+  jemal:
+    main: src/jemal.cr
+
+
+dependencies:
+  grip:
+    github: grip-framework/grip
+
+  authorization:
+    github: grip-framework/authorization
+
+  granite:
+    github: amberframework/granite
+
+  pg:
+    github: will/crystal-pg
+
+  micrate:
+    github: juanedi/micrate
+
+  athena-serializer:
+    github: athena-framework/serializer
+    version: ~> 0.2.0
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 0.13.0
+
+crystal: 1.0.0
+
+license: MIT
